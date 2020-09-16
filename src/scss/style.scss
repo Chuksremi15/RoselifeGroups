@@ -1,0 +1,199 @@
+$rbgawhiteopacity: rgba(255, 255, 255, 0.9);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #585858;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.085em;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+#showcase {
+  background: url('../img/hotel.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+#showcase1 {
+  background: url('../img/showcase.jpg');
+  height: 160px;
+}
+
+.contentBackground {
+  position: absolute;
+  margin-top: 520px;
+  width: 100%;
+  height: 80px;
+  padding: 20px 20px;
+  background: $rbgawhiteopacity;
+  color: black;
+
+  .pull-left {
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.195em;
+    text-transform: uppercase;
+  }
+
+  .pull-right {
+    background: #eb2f24;
+
+    a {
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
+
+.heading-line {
+  background: #eb2f24;
+  width: 50px;
+  height: 6px;
+}
+
+.btn {
+  border-radius: 0%;
+  background: #eb2f24;
+  color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 0%;
+
+  .card-img-top {
+    border-radius: 0%;
+    padding: 0 0;
+  }
+
+  .card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 147.4%;
+    text-align: start;
+    letter-spacing: 0.035em;
+    color: #444444;
+  }
+}
+
+.card-title-cu {
+  margin-top: -30px;
+  background: $rbgawhiteopacity;
+  padding: 6px 8px;
+  font-weight: normal;
+}
+
+#icon-section {
+  background: url(../img/iconimage.jpg);
+}
+
+.fa {
+  font-size: 20px;
+  padding: 10px 12px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  opacity: 0.9;
+  margin-top: -80px;
+}
+
+.card-icon {
+  background: #fff;
+}
+
+.showcase1text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #444444;
+
+  width: auto;
+
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    color: #000;
+  }
+}
+
+.active {
+  border-bottom: solid #eb2f24 5px;
+}
+
+.lead {
+  color: #eb2f24;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  letter-spacing: 0.035em;
+}
+
+.night {
+  color: #444444;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  letter-spacing: 0.035em;
+}
+
+.btn-room {
+  padding: 0 20px;
+}
+
+@import 'mobile';
